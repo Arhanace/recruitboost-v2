@@ -1,0 +1,1674 @@
+[  509428ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  512539ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  512667ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  512999ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  513102ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  513367ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  513467ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  513734ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  513834ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  514109ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  514205ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  514474ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  514574ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  514831ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  514917ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  515178ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  515281ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  515560ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  515662ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  515930ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  516036ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  516315ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  516420ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  516697ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  516806ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  517077ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  517176ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  517447ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  517558ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  517842ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  517955ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  518246ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  518361ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  518646ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  518750ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  519026ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  519140ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  519437ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  519548ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  519838ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  519946ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  520264ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  520374ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  520660ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  520772ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  521073ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  521182ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  521480ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  521608ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  521918ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  522036ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  522805ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  522915ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  523208ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  523300ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  523580ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  523670ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  523932ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  524013ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  524276ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  524367ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  524632ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  524722ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  524991ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  525075ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  525321ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  525405ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  525661ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  525749ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  526010ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  526096ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  526341ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  526422ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  526676ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  526770ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  527038ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  527120ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  527369ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  527450ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  527709ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  527798ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  528061ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  528145ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  528411ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  528497ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  528747ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  528827ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  529074ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  529152ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  529409ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  529493ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  529755ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  529839ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  530089ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  530174ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  530436ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  530524ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  530781ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  530865ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  531162ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  531243ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  531510ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  531609ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  531904ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  532001ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  532767ms] [ERROR] ./components/onboarding/onboarding-modal.tsx
+Error:   × Unterminated string constant
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+  × Expected '</', got 'string literal (, ")'
+     ╭─[/Users/arhansalunke/Desktop/recruitboost-v2/components/onboarding/onboarding-modal.tsx:245:1]
+ 242 │                 </Label>
+ 243 │                 <Input
+ 244 │                   id="height"
+ 245 │                   placeholder="e.g. 6'2\""
+     ·                                          ─
+ 246 │                   value={height}
+ 247 │                   onChange={(e) => setHeight(e.target.value)}
+ 248 │                 />
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/onboarding/onboarding-modal.tsx
+./app/(app)/layout.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  532899ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
+[  534070ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=12ws2:0
