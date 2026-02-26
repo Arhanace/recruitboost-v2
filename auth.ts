@@ -9,6 +9,7 @@ import bcrypt from "bcryptjs";
 import { signInSchema } from "@/lib/validators";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
+  trustHost: true,
   adapter: DrizzleAdapter(db, {
     usersTable: users,
     accountsTable: accounts,
