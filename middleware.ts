@@ -32,7 +32,8 @@ export async function middleware(req: NextRequest) {
     return addSecurityHeaders(NextResponse.next());
   }
 
-  const token = await getToken({ req, secret: process.env.NEXTAUTH_SECRET });
+  const secret = process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET;
+  const token = await getToken({ req, secret });
   const isAuthenticated = !!token;
   const isPublicPath =
     pathname === "/" || publicPaths.some((path) => pathname.startsWith(path));
