@@ -27,8 +27,8 @@ function addSecurityHeaders(response: NextResponse): NextResponse {
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  // Allow auth API routes
-  if (pathname.startsWith("/api/auth")) {
+  // Allow auth and debug API routes
+  if (pathname.startsWith("/api/auth") || pathname.startsWith("/api/debug")) {
     return addSecurityHeaders(NextResponse.next());
   }
 
