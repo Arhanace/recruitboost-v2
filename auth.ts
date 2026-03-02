@@ -1,19 +1,14 @@
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import Google from "next-auth/providers/google";
-import { DrizzleAdapter } from "@auth/drizzle-adapter";
 import { db } from "@/db";
-import { users, accounts } from "@/db/schema";
+import { users } from "@/db/schema";
 import { eq } from "drizzle-orm";
 import bcrypt from "bcryptjs";
 import { signInSchema } from "@/lib/validators";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   trustHost: true,
-  adapter: DrizzleAdapter(db, {
-    usersTable: users,
-    accountsTable: accounts,
-  }),
   session: {
     strategy: "jwt",
   },
@@ -65,21 +60,58 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     }),
   ],
   callbacks: {
+    async signIn({ user, account }) {
+      if (account?.provider === "google" && user.email) {
+        // Find or create user in database
+        const [existing] = await db
+          .select()
+          .from(users)
+          .where(eq(users.email, user.email))
+          .limit(1);
+
+        if (!existing) {
+          const [newUser] = await db
+            .insert(users)
+            .values({
+              email: user.email,
+              name: user.name || user.email,
+              googleId: account.providerAccountId,
+              image: user.image,
+            })
+            .returning({ id: users.id });
+          user.id = newUser.id;
+        } else {
+          user.id = existing.id;
+          // Update googleId if not set
+          if (!existing.googleId) {
+            await db
+              .update(users)
+              .set({ googleId: account.providerAccountId })
+              .where(eq(users.id, existing.id));
+          }
+        }
+      }
+      return true;
+    },
     async jwt({ token, user }) {
       if (user) {
         token.id = user.id;
       }
-      // Always fetch latest profile data from DB
+      // Fetch latest profile data from DB
       if (token.id) {
-        const [dbUser] = await db
-          .select({ sport: users.sport, graduationYear: users.graduationYear, name: users.name })
-          .from(users)
-          .where(eq(users.id, token.id as string))
-          .limit(1);
-        if (dbUser) {
-          token.sport = dbUser.sport;
-          token.graduationYear = dbUser.graduationYear;
-          token.name = dbUser.name;
+        try {
+          const [dbUser] = await db
+            .select({ sport: users.sport, graduationYear: users.graduationYear, name: users.name })
+            .from(users)
+            .where(eq(users.id, token.id as string))
+            .limit(1);
+          if (dbUser) {
+            token.sport = dbUser.sport;
+            token.graduationYear = dbUser.graduationYear;
+            token.name = dbUser.name;
+          }
+        } catch {
+          // DB query failed, keep existing token data
         }
       }
       return token;
