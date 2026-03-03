@@ -334,20 +334,12 @@ export default function SplashPage() {
               <h3 className="font-medium text-gray-800 mb-4">Legal</h3>
               <ul className="space-y-2">
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    href="/privacy-policy"
                     className="text-sm text-gray-500 hover:text-blue-600 transition-colors"
                   >
-                    Privacy
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-sm text-gray-500 hover:text-blue-600 transition-colors"
-                  >
-                    Terms
-                  </a>
+                    Privacy Policy
+                  </Link>
                 </li>
               </ul>
             </div>

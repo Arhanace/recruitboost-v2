@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { auth } from "@/auth";
 
-const publicPaths = ["/login", "/signup"];
+const publicPaths = ["/login", "/signup", "/privacy-policy"];
 
 function addSecurityHeaders(response: NextResponse): NextResponse {
   response.headers.set(
