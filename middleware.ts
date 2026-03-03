@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { getToken } from "next-auth/jwt";
+import { auth } from "@/auth";
 
 const publicPaths = ["/login", "/signup"];
 
@@ -24,7 +24,7 @@ function addSecurityHeaders(response: NextResponse): NextResponse {
   return response;
 }
 
-export async function middleware(req: NextRequest) {
+export default auth((req) => {
   const { pathname } = req.nextUrl;
 
   // Allow auth and debug API routes
@@ -32,9 +32,7 @@ export async function middleware(req: NextRequest) {
     return addSecurityHeaders(NextResponse.next());
   }
 
-  const secret = process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET;
-  const token = await getToken({ req, secret });
-  const isAuthenticated = !!token;
+  const isAuthenticated = !!req.auth;
   const isPublicPath =
     pathname === "/" || publicPaths.some((path) => pathname.startsWith(path));
 
@@ -53,7 +51,7 @@ export async function middleware(req: NextRequest) {
   }
 
   return addSecurityHeaders(NextResponse.next());
-}
+});
 
 export const config = {
   matcher: ["/((?!_next/static|_next/image|favicon.ico|.*\\..*).*)"],
