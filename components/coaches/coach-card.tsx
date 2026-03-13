@@ -19,9 +19,11 @@ import {
   BookmarkCheck,
   Loader2,
   Phone,
+  Shield,
 } from "lucide-react";
 import { SchoolLogo } from "@/components/ui/school-logo";
 import { titleCase } from "@/lib/utils";
+import { getFullStateName } from "@/lib/states";
 
 export interface Coach {
   id: number;
@@ -127,8 +129,9 @@ export function CoachCard({ coach, isSaved, isSaving, onToggleSave }: CoachCardP
         {coach.division && (
           <Badge
             variant="outline"
-            className={`text-[11px] px-1.5 py-0 font-medium w-fit ${getDivisionBadgeClass(coach.division)}`}
+            className={`text-[11px] px-1.5 py-0 font-medium w-fit gap-1 ${getDivisionBadgeClass(coach.division)}`}
           >
+            <Shield className="h-3 w-3" />
             {coach.division}
           </Badge>
         )}
@@ -141,7 +144,7 @@ export function CoachCard({ coach, isSaved, isSaving, onToggleSave }: CoachCardP
         {coach.state && (
           <Badge variant="secondary" className="text-[11px] py-0 font-normal gap-1 w-fit">
             <MapPin className="h-3 w-3" />
-            {coach.state}
+            {getFullStateName(coach.state)}
           </Badge>
         )}
       </div>

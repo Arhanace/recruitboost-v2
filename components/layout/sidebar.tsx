@@ -25,6 +25,7 @@ export function Sidebar() {
   const userName = session?.user?.name || "User";
   const sport = (session?.user as { sport?: string | null })?.sport || null;
   const graduationYear = (session?.user as { graduationYear?: number | null })?.graduationYear || null;
+  const userImage = session?.user?.image || null;
 
   const initials = userName
     .split(" ")
@@ -75,8 +76,16 @@ export function Sidebar() {
       {/* User Profile Card */}
       <div className="px-4 pb-5 pt-4 mt-auto border-t">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center flex-shrink-0">
-            <span className="text-sm font-semibold text-muted-foreground">{initials}</span>
+          <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center flex-shrink-0 overflow-hidden">
+            {userImage ? (
+              <img
+                src={userImage}
+                alt={userName}
+                className="w-10 h-10 object-cover"
+              />
+            ) : (
+              <span className="text-sm font-semibold text-muted-foreground">{initials}</span>
+            )}
           </div>
           <div className="min-w-0">
             <p className="text-[15px] font-semibold text-foreground truncate">{userName}</p>

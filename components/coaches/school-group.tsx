@@ -8,6 +8,7 @@ import {
   Mail,
   MapPin,
   Trophy,
+  Shield,
   ChevronDown,
   ChevronRight,
   Users,
@@ -17,6 +18,7 @@ import {
 } from "lucide-react";
 import { SchoolLogo } from "@/components/ui/school-logo";
 import { titleCase } from "@/lib/utils";
+import { getFullStateName } from "@/lib/states";
 import type { Coach } from "@/components/coaches/coach-card";
 
 const DIVISION_COLORS: Record<string, string> = {
@@ -99,7 +101,7 @@ export function SchoolGroupCard({
             {group.state && (
               <Badge variant="secondary" className="text-[11px] font-normal gap-1 py-0">
                 <MapPin className="h-3 w-3" />
-                {group.state}
+                {getFullStateName(group.state)}
               </Badge>
             )}
             {group.conference && (
@@ -111,8 +113,9 @@ export function SchoolGroupCard({
             {group.division && (
               <Badge
                 variant="outline"
-                className={`text-[11px] font-medium px-1.5 py-0 ${getDivisionBadgeClass(group.division)}`}
+                className={`text-[11px] font-medium px-1.5 py-0 gap-1 ${getDivisionBadgeClass(group.division)}`}
               >
+                <Shield className="h-3 w-3" />
                 {group.division}
               </Badge>
             )}

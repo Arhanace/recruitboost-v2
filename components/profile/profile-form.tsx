@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useState, useTransition, useRef } from "react";
 import {
   Save,
   Loader2,
@@ -8,6 +8,8 @@ import {
   GraduationCap,
   Dumbbell,
   MapPin,
+  Camera,
+  Trash2,
 } from "lucide-react";
 import {
   Card,
@@ -30,6 +32,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { updateProfile } from "@/actions/profile";
+import { uploadAvatar, removeAvatar } from "@/actions/avatar";
 import { useToast } from "@/hooks/use-toast";
 
 interface ProfileData {
@@ -85,6 +88,9 @@ export function ProfileForm({ initialProfile }: ProfileFormProps) {
 
   const [isPending, startTransition] = useTransition();
   const { toast } = useToast();
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const [avatarUrl, setAvatarUrl] = useState<string | null>(initialProfile.image);
+  const [isUploadingAvatar, setIsUploadingAvatar] = useState(false);
 
   function handleChange(
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -94,6 +100,41 @@ export function ProfileForm({ initialProfile }: ProfileFormProps) {
 
   function handleSelectChange(name: string, value: string) {
     setFormData((prev) => ({ ...prev, [name]: value }));
+  }
+
+  async function handleAvatarUpload(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setIsUploadingAvatar(true);
+    try {
+      const formData = new FormData();
+      formData.append("file", file);
+      const result = await uploadAvatar(formData);
+      setAvatarUrl(result.image);
+      toast({ title: "Photo updated", description: "Your profile photo has been saved." });
+    } catch (error) {
+      toast({
+        title: "Upload failed",
+        description: error instanceof Error ? error.message : "Failed to upload image.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsUploadingAvatar(false);
+      if (fileInputRef.current) fileInputRef.current.value = "";
+    }
+  }
+
+  async function handleAvatarRemove() {
+    setIsUploadingAvatar(true);
+    try {
+      await removeAvatar();
+      setAvatarUrl(null);
+      toast({ title: "Photo removed", description: "Your profile photo has been removed." });
+    } catch {
+      toast({ title: "Error", description: "Failed to remove photo.", variant: "destructive" });
+    } finally {
+      setIsUploadingAvatar(false);
+    }
   }
 
   function handleSave() {
@@ -170,6 +211,67 @@ export function ProfileForm({ initialProfile }: ProfileFormProps) {
             Personal Information
           </h3>
           <Separator />
+
+          {/* Profile Photo */}
+          <div className="flex items-center gap-5">
+            <div className="relative">
+              {avatarUrl ? (
+                <img
+                  src={avatarUrl}
+                  alt="Profile photo"
+                  className="w-20 h-20 rounded-full object-cover border-2 border-muted"
+                />
+              ) : (
+                <div className="w-20 h-20 rounded-full bg-muted flex items-center justify-center border-2 border-muted">
+                  <span className="text-2xl font-semibold text-muted-foreground">
+                    {(formData.firstName.charAt(0) + formData.lastName.charAt(0)).toUpperCase() || "?"}
+                  </span>
+                </div>
+              )}
+              {isUploadingAvatar && (
+                <div className="absolute inset-0 rounded-full bg-black/40 flex items-center justify-center">
+                  <Loader2 className="w-5 h-5 text-white animate-spin" />
+                </div>
+              )}
+            </div>
+            <div className="space-y-2">
+              <p className="text-sm font-medium text-foreground">Profile Photo</p>
+              <p className="text-xs text-muted-foreground">JPEG, PNG, or WebP. Max 2MB.</p>
+              <div className="flex gap-2">
+                <Button
+                  type="button"
+                  variant="outline"
+                  size="sm"
+                  className="gap-1.5"
+                  onClick={() => fileInputRef.current?.click()}
+                  disabled={isUploadingAvatar}
+                >
+                  <Camera className="w-3.5 h-3.5" />
+                  {avatarUrl ? "Change" : "Upload"}
+                </Button>
+                {avatarUrl && (
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="sm"
+                    className="gap-1.5 text-muted-foreground hover:text-destructive"
+                    onClick={handleAvatarRemove}
+                    disabled={isUploadingAvatar}
+                  >
+                    <Trash2 className="w-3.5 h-3.5" />
+                    Remove
+                  </Button>
+                )}
+              </div>
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept="image/jpeg,image/png,image/webp"
+                className="hidden"
+                onChange={handleAvatarUpload}
+              />
+            </div>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="space-y-2">

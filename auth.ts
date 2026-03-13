@@ -101,7 +101,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       if (token.id) {
         try {
           const [dbUser] = await db
-            .select({ sport: users.sport, graduationYear: users.graduationYear, name: users.name })
+            .select({ sport: users.sport, graduationYear: users.graduationYear, name: users.name, image: users.image })
             .from(users)
             .where(eq(users.id, token.id as string))
             .limit(1);
@@ -109,6 +109,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
             token.sport = dbUser.sport;
             token.graduationYear = dbUser.graduationYear;
             token.name = dbUser.name;
+            token.picture = dbUser.image;
           }
         } catch {
           // DB query failed, keep existing token data
@@ -125,6 +126,9 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       }
       if (token?.graduationYear !== undefined) {
         session.user.graduationYear = token.graduationYear as number | null;
+      }
+      if (token?.picture !== undefined) {
+        session.user.image = token.picture as string | null;
       }
       return session;
     },
