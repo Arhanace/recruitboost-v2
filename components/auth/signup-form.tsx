@@ -218,6 +218,11 @@ export function SignupForm() {
           Log in
         </Link>
       </p>
+      <p className="mt-3 text-center text-xs text-muted-foreground">
+        <Link href="/privacy-policy" className="hover:text-foreground transition-colors">
+          Privacy Policy
+        </Link>
+      </p>
     </div>
   );
 }

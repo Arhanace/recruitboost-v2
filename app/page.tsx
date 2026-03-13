@@ -313,15 +313,7 @@ export default function SplashPage() {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href="#"
-                    className="text-sm text-gray-500 hover:text-blue-600 transition-colors"
-                  >
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
+                    href="mailto:support@recruitboost.io"
                     className="text-sm text-gray-500 hover:text-blue-600 transition-colors"
                   >
                     Contact

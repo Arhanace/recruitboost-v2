@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server";
 import { auth } from "@/auth";
 
 const publicPaths = ["/login", "/signup", "/privacy-policy"];
@@ -27,8 +26,8 @@ function addSecurityHeaders(response: NextResponse): NextResponse {
 export default auth((req) => {
   const { pathname } = req.nextUrl;
 
-  // Allow auth and debug API routes
-  if (pathname.startsWith("/api/auth") || pathname.startsWith("/api/debug")) {
+  // Allow auth API routes
+  if (pathname.startsWith("/api/auth")) {
     return addSecurityHeaders(NextResponse.next());
   }
 

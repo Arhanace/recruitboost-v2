@@ -33,8 +33,6 @@ export function Sidebar() {
     .toUpperCase()
     .slice(0, 2);
 
-  const profileSubtitle = [sport, graduationYear].filter(Boolean).join(" \u00B7 ");
-
   return (
     <aside className="w-56 border-r bg-card flex flex-col h-screen sticky top-0">
       {/* Logo */}
